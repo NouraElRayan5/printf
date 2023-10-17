@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <stdarg.h>
 #include <unistd.h>
+#include <stdio.h>
 
 /**
  * struct my_struct - match the conversion specifires for printf
@@ -14,7 +15,7 @@ typedf struct my_struct
 {
 char *c;
 int (*f)();    
-} formate;
+} format;
 
 int _putchar(char c);
 int _printf(const char *format, ...);
