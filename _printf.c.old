@@ -5,6 +5,7 @@
  * @format: the format
  * Return: count
 */
+void print_buffer(char buffer[], int *buff_ind);
 
 int print_f(const char *format, ...)
 {
